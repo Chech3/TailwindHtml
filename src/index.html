@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-no-repeat bg-cover"
+    style="background-image: url('img/fondo.jpg')"
+  >
+    <div class="max-w-5xl mx-auto my-10">
+      <header
+        class="flex flex-col lg:flex-row items-center justify-between text-center"
+      >
+        <div>
+          <img src="img/logo.jpg" alt="logo" />
+        </div>
+        <nav class="space-x-8 text-white text-lg font-semibold mt-5 md:mt-0">
+          <a href="#" class="hover:underline">Inicio </a>
+          <a href="#" class="hover:underline">Trabajo</a>
+          <a href="#" class="hover:underline">Contactanos</a>
+        </nav>
+      </header>
+      <section class="mt-10">
+        <article class="bg-white p-5">
+          <h1 class="text-stone-500 text-2xl mb-3 text-center md:text-left">
+            Titulo Principal
+          </h1>
+          <p class="leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis
+            laborum aliquid mollitia porro similique recusandae ducimus, itaque
+            nesciunt maiores aliquam, tenetur illum praesentium ratione. Soluta
+            quisquam cumque, at numquam esse consectetur aspernatur aliquam!
+            Itaque molestiae incidunt blanditiis doloremque, quibusdam odio
+            officiis rerum exercitationem! Veniam earum consequatur molestiae,
+            corporis magnam vel consequuntur odit explicabo id voluptas impedit
+            porro sint nisi voluptatum voluptatem, ipsum necessitatibus ratione
+            exercitationem quaerat. Neque placeat omnis labore molestiae eos
+            nisi rem aperiam, inventore quaerat. Sapiente dolorem modi saepe
+            beatae omnis tempore corporis quisquam asperiores molestias? Ipsam
+            rerum provident quaerat assumenda sed velit consectetur architecto
+            magnam quibusdam.
+          </p>
+        </article>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-center text-white text-3xl mb-5">Galeria</h2>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 gap-y-7 p-2"
+        >
+          <div>
+            <img
+              class="opacity-60 hover:opacity-100 duration-300 ease-in-out"
+              src="img/yo.jpg"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              class="opacity-60 hover:opacity-100 transition duration-300 ease-in-out"
+              src="img/guaca.jpg"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              class="opacity-60 hover:opacity-100 transition duration-300 ease-in-out"
+              src="img/yo.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <form class="mt-10 p-5" action="">
+        <h2 class="text-center text-white text-3xl mb-5">Contáctanos</h2>
+        <input
+          type="text"
+          class="outline-none block w-full mb-3 p-3 bg-inherit border-b border-b-stone-300 text-white"
+          placeholder="Nombre: "
+        />
+        <input
+          type="email"
+          class="outline-none block w-full mb-3 p-3 bg-inherit border-b border-b-stone-300 text-white"
+          placeholder="Email:"
+        />
+        <textarea
+          placeholder="Mensaje"
+          class="mt-10 outline-none block w-full h-44 max-h-44 mb-3 p-3 bg-inherit border-2 border-stone-300 text-white"
+        ></textarea>
+        <button
+          type="submit"
+          class="block mx-auto px-12 py-2 bg-violet-400 hover:bg-violet-500 text-slate-700 hover:text-white transition duration-300 ease-in-out"
+        >
+          Enviar
+        </button>
+      </form>
+      <footer
+        class="mt-10 opacity-50 flex flex-col md:flex-row justify-between bg-white p-4 text-center"
+      >
+        <p class="text-gray-900 font-bold">
+          Cheche. Todos los derechos reservados
+        </p>
+        <ul class="inline-flex space-x-5 ml-24 md:ml-0 mt-3 md:mt-0">
+          <li class="text-gray-900 hover:text-black hover:underline font bold">
+            <a href="#">Facebook</a>
+          </li>
+          <li class="text-gray-900 hover:text-black hover:underline font bold">
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
